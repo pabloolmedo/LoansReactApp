@@ -1,25 +1,52 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment, useState } from 'react';
+import Header from './components/Header';
+import Form from './components/Form';
+import Message from './components/Message';
+import Result from './components/Result';
+import Spinner from './components/Spinner';
+
 
 function App() {
+
+  //definir el state
+  const [quantity, saveQuantity] = useState(0);
+  const [term, saveTerm] = useState('');
+  const [total, saveTotal] = useState(0);
+  const [loading, saveLoading] = useState(false);
+
+  let component;
+  if (loading) {
+    component = <Spinner />
+  } else if (total === 0) {
+    component = <Message />
+  } else {
+    component = <Result
+      total={total}
+      term={term}
+      quantity={quantity}
+    />
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <Header
+        title="Loan quote"
+      />
+      <div className="container">
+        <Form
+          quantity={quantity}
+          saveQuantity={saveQuantity}
+          term={term}
+          saveTerm={saveTerm}
+          saveTotal={saveTotal}
+          saveLoading={saveLoading}
+        />
+        <div className="mensajes">
+          {component}
+        </div>
+
+      </div>
+    </Fragment>
   );
 }
 
