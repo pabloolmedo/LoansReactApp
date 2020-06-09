@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/pabloolmedo/LoansReactApp/static/css/main.2f941c37.chunk.css",
-    "main.js": "/pabloolmedo/LoansReactApp/static/js/main.4ec2dcdf.chunk.js",
-    "main.js.map": "/pabloolmedo/LoansReactApp/static/js/main.4ec2dcdf.chunk.js.map",
-    "runtime-main.js": "/pabloolmedo/LoansReactApp/static/js/runtime-main.8e9f4cd8.js",
-    "runtime-main.js.map": "/pabloolmedo/LoansReactApp/static/js/runtime-main.8e9f4cd8.js.map",
-    "static/js/2.c63989ec.chunk.js": "/pabloolmedo/LoansReactApp/static/js/2.c63989ec.chunk.js",
-    "static/js/2.c63989ec.chunk.js.map": "/pabloolmedo/LoansReactApp/static/js/2.c63989ec.chunk.js.map",
-    "index.html": "/pabloolmedo/LoansReactApp/index.html",
-    "precache-manifest.ac1e3273fc48141eaf9c0be4907cebfd.js": "/pabloolmedo/LoansReactApp/precache-manifest.ac1e3273fc48141eaf9c0be4907cebfd.js",
-    "service-worker.js": "/pabloolmedo/LoansReactApp/service-worker.js",
-    "static/css/main.2f941c37.chunk.css.map": "/pabloolmedo/LoansReactApp/static/css/main.2f941c37.chunk.css.map",
-    "static/js/2.c63989ec.chunk.js.LICENSE.txt": "/pabloolmedo/LoansReactApp/static/js/2.c63989ec.chunk.js.LICENSE.txt"
+    "main.css": "/LoansReactApp/static/css/main.2f941c37.chunk.css",
+    "main.js": "/LoansReactApp/static/js/main.e8956d70.chunk.js",
+    "main.js.map": "/LoansReactApp/static/js/main.e8956d70.chunk.js.map",
+    "runtime-main.js": "/LoansReactApp/static/js/runtime-main.faa9aecc.js",
+    "runtime-main.js.map": "/LoansReactApp/static/js/runtime-main.faa9aecc.js.map",
+    "static/js/2.c63989ec.chunk.js": "/LoansReactApp/static/js/2.c63989ec.chunk.js",
+    "static/js/2.c63989ec.chunk.js.map": "/LoansReactApp/static/js/2.c63989ec.chunk.js.map",
+    "index.html": "/LoansReactApp/index.html",
+    "precache-manifest.12498cdd1510327e8cd6952446788dff.js": "/LoansReactApp/precache-manifest.12498cdd1510327e8cd6952446788dff.js",
+    "service-worker.js": "/LoansReactApp/service-worker.js",
+    "static/css/main.2f941c37.chunk.css.map": "/LoansReactApp/static/css/main.2f941c37.chunk.css.map",
+    "static/js/2.c63989ec.chunk.js.LICENSE.txt": "/LoansReactApp/static/js/2.c63989ec.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8e9f4cd8.js",
+    "static/js/runtime-main.faa9aecc.js",
     "static/js/2.c63989ec.chunk.js",
     "static/css/main.2f941c37.chunk.css",
-    "static/js/main.4ec2dcdf.chunk.js"
+    "static/js/main.e8956d70.chunk.js"
   ]
 }
